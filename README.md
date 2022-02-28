@@ -1,4 +1,10 @@
+![image](https://user-images.githubusercontent.com/41553774/156061571-9728b51d-bfd9-4f67-ba11-3e7d54d41e28.png)
+![image](https://user-images.githubusercontent.com/41553774/156061848-989a08f7-a2cf-4616-9144-0c5969b3d435.png)
+
+
 # Spaangular
+
+Clone UI usando API da Marvel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
