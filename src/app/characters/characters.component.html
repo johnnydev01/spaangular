@@ -1,0 +1,20 @@
+
+<spa-banner 
+    title="Marvel Characters"
+    subtitle="Get hooked on a hearty helping of heroes and villains from the humble House of Ideas!"
+>
+</spa-banner>
+
+<div class="home-content">
+    <mat-card 
+      class="home-card"
+      *ngFor="let character of characters"
+    >
+    <img mat-card-image src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="">
+      <mat-card-header>
+        <mat-card-title>{{character.name}}</mat-card-title>
+      </mat-card-header>
+      <div class="cut"></div>
+    </mat-card>
+  
+  </div>
