@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AppComponentService } from './app-component.service';
 
 @Component({
   selector: 'spa-root',
@@ -11,11 +10,10 @@ export class AppComponent  implements OnInit {
 
 
 
-  constructor(private appService: AppComponentService) {
+  constructor() {
 
   }
 
   ngOnInit(): void {
-      this. appService.getAllCharacters().subscribe(data => console.log('Data', data))
   }
 }
